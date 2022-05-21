@@ -1,0 +1,4 @@
+C:\Users\Диана\source\repos\Калькулятор\Debug\Калькулятор.vcxproj.AssemblyReference.cache
+C:\Users\Диана\source\repos\Калькулятор\Debug\Калькулятор.exe
+C:\Users\Диана\source\repos\Калькулятор\Debug\Калькулятор.MyForm.resources
+C:\Users\Диана\source\repos\Калькулятор\Debug\Калькулятор.vcxproj.GenerateResource.cache
