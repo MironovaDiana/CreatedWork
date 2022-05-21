@@ -1,0 +1,14 @@
+﻿  open.cpp
+C:\Users\Диана\source\repos\work\open.cpp(106,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Диана\source\repos\work\open.cpp(109,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Диана\source\repos\work\open.cpp(161,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Диана\source\repos\work\open.cpp(162,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Диана\source\repos\work\open.cpp(312,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Диана\source\repos\work\open.cpp(333,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Диана\source\repos\work\open.cpp(340,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Диана\source\repos\work\open.cpp(372,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Диана\source\repos\work\open.cpp(397,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Диана\source\repos\work\open.cpp(422,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Диана\source\repos\work\open.cpp(449,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Диана\source\repos\work\open.cpp(699,23): warning C4018: <: несоответствие типов со знаком и без знака
+  work.vcxproj -> C:\Users\Диана\source\repos\work\Debug\work.exe
