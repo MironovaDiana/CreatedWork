@@ -1,7 +1,7 @@
 #pragma once
 #include <math.h>
 
-namespace Калькулятор {
+namespace РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -11,7 +11,7 @@ namespace Калькулятор {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -20,13 +20,13 @@ namespace Калькулятор {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -68,14 +68,14 @@ namespace Калькулятор {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		///СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -358,7 +358,7 @@ namespace Калькулятор {
 			this->Controls->Add(this->pictureBox1);
 			this->DoubleBuffered = true;
 			this->Name = L"MyForm";
-			this->Text = L"Калькулятор физических нагрузок";
+			this->Text = L"ГЉГ Г«ГјГЄГіГ«ГїГІГ®Г° ГґГЁГ§ГЁГ·ГҐГ±ГЄГЁГµ Г­Г ГЈГ°ГіГ§Г®ГЄ";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -411,14 +411,14 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		if (comboBox1->Text != "Man" && comboBox1->Text != "Woman") { MessageBox::Show("Choose your gender!"); }
 
 
-		if (comboBox1->Text == "Man") {//муж
-			norkkal = floor((9.99 * weight + 6.25 * height - 4.92 * age + 5) * 1.375);//норма ккал
-			bestweight = floor((height - 110) * 1.15);//идеальный вес
+		if (comboBox1->Text == "Man") {//Г¬ГіГ¦
+			norkkal = floor((9.99 * weight + 6.25 * height - 4.92 * age + 5) * 1.375);//Г­Г®Г°Г¬Г  ГЄГЄГ Г«
+			bestweight = floor((height - 110) * 1.15);//ГЁГ¤ГҐГ Г«ГјГ­Г»Г© ГўГҐГ±
 
 		}
-		else if (human == 0) {//жен
-			norkkal = floor((9.99 * weight + 6.25 * height - 4.92 * age - 161) * 1.375);//норма ккал
-			bestweight = floor((height - 110) * 1.15);//идеальный вес
+		else if (human == 0) {//Г¦ГҐГ­
+			norkkal = floor((9.99 * weight + 6.25 * height - 4.92 * age - 161) * 1.375);//Г­Г®Г°Г¬Г  ГЄГЄГ Г«
+			bestweight = floor((height - 110) * 1.15);//ГЁГ¤ГҐГ Г«ГјГ­Г»Г© ГўГҐГ±
 
 		}
 		else  MessageBox::Show("Choose your gender!");
@@ -427,7 +427,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	}
 }
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-	comboBox1->Text = "Gender"; comboBox2->Text = "Age"; comboBox3->Text = "Hight, см"; comboBox4->Text = "Wight, кг";
+	comboBox1->Text = "Gender"; comboBox2->Text = "Age"; comboBox3->Text = "Hight, Г±Г¬"; comboBox4->Text = "Wight, ГЄГЈ";
 }
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
 	double weight; double height;double age; double time;double kkal=weight; double res;
@@ -436,7 +436,7 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 		height = System::Convert::ToDouble(comboBox3->Text);
 		age = System::Convert::ToDouble(comboBox2->Text);
 		time = System::Convert::ToDouble(comboBox6->Text);
-		//прописываем ккал за отдельные упражнения
+		//ГЇГ°Г®ГЇГЁГ±Г»ГўГ ГҐГ¬ ГЄГЄГ Г« Г§Г  Г®ГІГ¤ГҐГ«ГјГ­Г»ГҐ ГіГЇГ°Г Г¦Г­ГҐГ­ГЁГї
 		if (comboBox5->Text == "Want") {
 			res = ((0.035 * weight) + (8 / height) * 0.029 * weight) * time;
 		}
@@ -510,7 +510,7 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 }
 	   bool Check()
 	   {
-		   int k = 0; //счетчик запятых
+		   int k = 0; 
 		   bool fl;
 		   
 		   if ((comboBox2->Text->Length == 0) || (comboBox3->Text->Length == 0) || (comboBox4->Text->Length == 0)) { return false; MessageBox::Show("Incorrect input!"); }
