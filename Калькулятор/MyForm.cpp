@@ -1,7 +1,8 @@
 #include "MyForm.h"
 #include <Windows.h>
 
-using namespace Калькулятор;
+using namespace РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ;
+
 
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
